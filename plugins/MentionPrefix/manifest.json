@@ -1,0 +1,10 @@
+{
+  "name": "MentionPrefix",
+  "description": "Automatically mentions the selected user before messages",
+  "authors": [
+    {
+      "name": "zeisu"
+    }
+  ],
+  "main": "index.js"
+}
