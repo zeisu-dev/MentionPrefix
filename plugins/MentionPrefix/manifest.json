@@ -1,19 +1,10 @@
 {
-  "format": 1,
-  "id": "MentionPrefix",
   "name": "MentionPrefix",
   "description": "Automatically mentions the selected user before messages",
-  "author": "zeisu",
-  "version": "1.0.0",
-  "dependencies": {
-    "revenge.api": {
-      "version": ">=1"
-    },
-    "discord": {
-      "version": "*"
+  "authors": [
+    {
+      "name": "zeisu"
     }
-  },
-  "dist": {
-    "script": "index.js"
-  }
+  ],
+  "main": "index.js"
 }
