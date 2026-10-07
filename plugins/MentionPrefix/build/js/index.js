@@ -1,0 +1,1 @@
+(function(e){return Object.defineProperty(e,Symbol.toStringTag,{value:`Module`}),e.default=plugin({start(){console.log(`[MentionPrefix] scanner started`),revenge.modules.finders.getModules(revenge.modules.finders.filters.withSingleProp(`sendMessage`),function(e){console.log(`[MentionPrefix] FOUND:`,e)})},stop(){console.log(`[MentionPrefix] scanner stopped`)}}),e})({});
